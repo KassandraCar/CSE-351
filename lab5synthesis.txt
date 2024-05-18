@@ -1,0 +1,20 @@
+*****************************
+* Lab 5 Synthesis Questions *
+*****************************
+Name(s): Kassandra Cardenas 
+NetID(s): kassac2 2236306
+
+
+-----------------------------------------------------------
+1) Boundary Tag Size: 8 bytes   
+   Reasoning: We begin by allocating two blocks that are 16 bytes each. The next step is to calcualte the difference in teh memory addresses. In order to determine the difference of size of the boundary tags we subtract teh size of the blco from teh overhead.  
+
+
+
+-----------------------------------------------------------
+2) Example or explanation of lack of benefit
+   
+The implementation of malloc and free were both very helpful, they both helped provide a deeper understadning of memory and the complexities of memory allocation and deallocation. The debugging aspect was also very helpful. I was able to use debugigng stratagize in order to better understand my code. I also had a buffer overflow inssue with this code so trying to figure out why and how I could fix it was really helpful for future use. 
+
+
+-----------------------------------------------------------
