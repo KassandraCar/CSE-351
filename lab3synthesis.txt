@@ -1,0 +1,24 @@
+*****************************
+* Lab 3 Synthesis Questions *
+*****************************
+Name(s): Kassandra Cardenas   
+NetID(s): 2236306 kassac2
+
+
+-----------------------------------------------------------
+1) Explain: The function is 48 bytes which stack onto an array. Adding more then 12 ints will allow for %rbp to be overwritten. The values are then corrupted, the ones that were stored in the argc and argv so the function returns to the main to try and access memory at an address that cannot be accessed. The jmp 0x4015ce <main+214> instructions found in the main.    
+
+
+
+-----------------------------------------------------------
+2) Minimum length to cause a seg fault:13
+   Calculation: 0x30 in hex is 48 in decimal. 48 bytes were alloacted on the stack to store the array. Each int is 4 bytes. 12 bytes can be added to the array before corrupting data stored in the stack.
+-----------------------------------------------------------
+3) Hacker Reflection: I thought that very early on this felt like hacking. On level 0 when we had to overwrite stored return addresses in the getbuf() stack frame with the address of the first instruction of smoke. 
+
+
+-----------------------------------------------------------
+4) Vulnerabilities and Security: This changes the way I view computer security a lot. I never realized how accessiable causeing problems and exploiting vulnerabliltes was. This lad has shown me that is is very important to make sure that you protect everything importatnt to the best of your ability. 
+
+
+-----------------------------------------------------------
